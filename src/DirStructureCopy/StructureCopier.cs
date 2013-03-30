@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using Ionic.Zip;
 using System.ComponentModel;
+using System.Resources;
 
 namespace DirStructureCopy
 {
@@ -16,13 +17,13 @@ namespace DirStructureCopy
         #region Private data members
         private const string logFile = "dirstructurecopy.log"; // TODO
         private const string zipExtension = ".zip";
-        private const string comment = "Original size was {0} B"; // TODO
 
         private string sourcePath;
         private string destinationPath;
         private ResultType result;
         private ZipFile zipFile;
         private BackgroundWorker backgroundWorker;
+        private ResourceManager resources;
 
         private bool flattenPaths = false;
         private bool browseZipArchives = false;
@@ -91,8 +92,9 @@ namespace DirStructureCopy
         }
         #endregion
 
-        public StructureCopier()
+        public StructureCopier(ResourceManager resources)
         {
+            this.resources = resources;
             backgroundWorker = new BackgroundWorker();
             backgroundWorker.WorkerSupportsCancellation = true;
             backgroundWorker.WorkerReportsProgress = true;
@@ -110,13 +112,13 @@ namespace DirStructureCopy
         {
             if (isStarted)
             {
-                throw new InvalidOperationException("RunAsync() cannot be called while copy is in progress."); // TODO
+                throw new InvalidOperationException("RunAsync() cannot be called while copy is in progress.");
             }
 
             DirectoryInfo sourceDir = new DirectoryInfo(source);
             if (!sourceDir.Exists)
             {
-                throw new IOException("Source directory doesn't exist"); // TODO
+                throw new IOException("Source directory doesn't exist");
             }
 
 
@@ -217,7 +219,7 @@ namespace DirStructureCopy
                 catch (UnauthorizedAccessException) { }
                 catch (Exception e)
                 {
-                    log("Exception when proccessing file {0} in {1}:\n{2}\n", sourceFile.Name, sourceDir.FullName, e.Message);
+                    log(resources.GetString("fileProcessingException") + ":\n{2}\n", sourceFile.Name, sourceDir.FullName, e.Message);
                 }
             }
 
@@ -236,7 +238,7 @@ namespace DirStructureCopy
                 catch (UnauthorizedAccessException) { }
                 catch (Exception e)
                 {
-                    log("Exception when proccessing directory '{0}' in '{1}':\n{2}\n", sourceDir.Name, sourceDir.FullName, e.Message);
+                    log(resources.GetString("dirProcessingException") + ":\n{2}\n", sourceDir.Name, sourceDir.FullName, e.Message);
                 }
             }
         }
@@ -260,7 +262,7 @@ namespace DirStructureCopy
             }
             catch (Exception e)
             {
-                log("Exception when proccessing zip file '{0}' in '{1}':\n{2}\n", sourceFile.Name, sourceFile.Directory.FullName, e.Message);
+                log(resources.GetString("zipProcessingException") + ":\n{2}\n", sourceFile.Name, sourceFile.Directory.FullName, e.Message); 
             }
         }
 
@@ -279,7 +281,7 @@ namespace DirStructureCopy
             entry.LastModified = sourceFile.LastWriteTime;
             entry.ModifiedTime = sourceFile.LastWriteTime;
 
-            entry.Comment = String.Format(comment, sourceFile.Length); // TODO documentation
+            entry.Comment = String.Format(resources.GetString("fileComment"), sourceFile.Length); // TODO documentation
             entry.IsText = true;
         }
 
@@ -306,7 +308,7 @@ namespace DirStructureCopy
                 {
                     return;
                 }
-                // TODO: nìjak ošetøit duplicity?
+                // TODO: treat duplicities?
                 string path = archivePath + "$" + Path.DirectorySeparatorChar + sourceEntry.FileName; // TODO documentation
                 ZipEntry newEntry = zipFile.AddDirectoryByName(path);
                 newEntry.Attributes = sourceEntry.Attributes;
@@ -331,7 +333,7 @@ namespace DirStructureCopy
                 newEntry.CreationTime = safeUtcTime(sourceEntry.CreationTime);
                 newEntry.LastModified = safeUtcTime(sourceEntry.LastModified);
                 newEntry.ModifiedTime = safeUtcTime(sourceEntry.ModifiedTime);
-                newEntry.Comment = String.Format(comment, sourceEntry.UncompressedSize);
+                newEntry.Comment = String.Format(resources.GetString("fileComment"), sourceEntry.UncompressedSize);
                 newEntry.IsText = true;
             }
         }

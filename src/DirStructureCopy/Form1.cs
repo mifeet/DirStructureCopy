@@ -8,17 +8,24 @@ using System.Text;
 using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using System.IO;
+using System.Globalization;
+using System.Threading;
+using System.Resources;
 
 namespace DirStructureCopy
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         StructureCopier copier;
+        ResourceManager resources;
 
-        public Form1()
+        public MainForm()
         {
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("cs-CZ");
+
             InitializeComponent();
-            copier = new StructureCopier();
+            resources = new ResourceManager("DirStructureCopy.UIStrings", typeof(MainForm).Assembly);
+            copier = new StructureCopier(resources);
             copier.Stopped += new EventHandler<CopyStoppedEventArgs>(copier_Stopped);
             copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(copier_ProgressChanged);
         }
@@ -46,7 +53,7 @@ namespace DirStructureCopy
             string source = sourceDirBox.Text;
             if (!Directory.Exists(source))
             {
-                MessageBox.Show("Zdrojový adresář neexistuje.", "Chyba", MessageBoxButtons.OK, MessageBoxIcon.Error); // TODO
+                MessageBox.Show(resources.GetString("sourceDirectoryDoesntExist"), resources.GetString("error"), MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -71,13 +78,13 @@ namespace DirStructureCopy
             switch (e.Result)
             {
                 case StructureCopier.ResultType.Success:
-                    MessageBox.Show("Adresář byl zkopírován."); // TODO
+                    MessageBox.Show(resources.GetString("successResult")); 
                     break;
                 case StructureCopier.ResultType.Error:
-                    MessageBox.Show("Nastala chyba."); // TODO
+                    MessageBox.Show(resources.GetString("errorResult")); 
                     break;
                 case StructureCopier.ResultType.Canceled:
-                    MessageBox.Show("Kopírování bylo zrušeno."); // TODO
+                    MessageBox.Show(resources.GetString("canceledResult")); 
                     break;
             }
         }
