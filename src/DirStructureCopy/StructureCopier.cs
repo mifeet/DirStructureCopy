@@ -15,7 +15,7 @@ namespace DirStructureCopy
         private class CanceledException : Exception { }
 
         #region Private data members
-        private const string logFile = "dirstructurecopy.log"; // TODO
+        private const string logFile = "dirstructurecopy.log"; 
         private const string zipExtension = ".zip";
 
         private string sourcePath;
@@ -281,7 +281,7 @@ namespace DirStructureCopy
             entry.LastModified = sourceFile.LastWriteTime;
             entry.ModifiedTime = sourceFile.LastWriteTime;
 
-            entry.Comment = String.Format(resources.GetString("fileComment"), sourceFile.Length); // TODO documentation
+            entry.Comment = String.Format(resources.GetString("fileComment"), sourceFile.Length);
             entry.IsText = true;
         }
 
@@ -309,7 +309,7 @@ namespace DirStructureCopy
                     return;
                 }
                 // TODO: treat duplicities?
-                string path = archivePath + "$" + Path.DirectorySeparatorChar + sourceEntry.FileName; // TODO documentation
+                string path = archivePath + "$" + Path.DirectorySeparatorChar + sourceEntry.FileName;
                 ZipEntry newEntry = zipFile.AddDirectoryByName(path);
                 newEntry.Attributes = sourceEntry.Attributes;
                 newEntry.AccessedTime = safeUtcTime(sourceEntry.AccessedTime);
