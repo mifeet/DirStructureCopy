@@ -68,6 +68,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -476,8 +489,8 @@
                             "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1202"
+                            "Setting" = "3:2"
+                            "Value" = "8:This is a free software provided under Apache License v 2.0"
                             "DefaultValue" = "8:#1202"
                             "UsePlugInResources" = "11:TRUE"
                             }
@@ -845,7 +858,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_52E62FA030F644D4A423251927B3D56D"
             {
-            "SourcePath" = "8:..\\DirStructureCopy\\obj\\x86\\Release\\DirStructureCopy.exe"
+            "SourcePath" = "8:..\\DirStructureCopy\\obj\\x86\\Debug\\DirStructureCopy.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D0F189B6F3C24DB5820D3BF77F9F917F"

@@ -62,10 +62,6 @@
             resources.ApplyResources(this.sourceDirLabel, "sourceDirLabel");
             this.sourceDirLabel.Name = "sourceDirLabel";
             // 
-            // sourceFolderBrowserDialog
-            // 
-            resources.ApplyResources(this.sourceFolderBrowserDialog, "sourceFolderBrowserDialog");
-            // 
             // destinationDirLabel
             // 
             resources.ApplyResources(this.destinationDirLabel, "destinationDirLabel");

@@ -117,284 +117,107 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;sourceDirBox.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sourceBrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="progressBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 20</value>
-  </data>
-  <data name="&gt;&gt;destinationBrowseBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;browseArchivesCb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="destinationDirLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="destinationFileBox.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;progressBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="destinationBrowseBtn.Text" xml:space="preserve">
-    <value>Browse...</value>
-  </data>
-  <data name="&gt;&gt;browseArchivesCb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="browseArchivesCb.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;sourceBrowseBtn.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="sourceDirLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="destinationDirLabel.Text" xml:space="preserve">
-    <value>Destination archive:</value>
-  </data>
-  <data name="sourceDirLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="sourceDirBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 20</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="sourceDirBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="destinationDirLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 50</value>
-  </data>
-  <data name="&gt;&gt;browseArchivesCb.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;sourceFolderBrowserDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 44</value>
+  <data name="sourceBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 10</value>
   </data>
   <data name="sourceBrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="destinationFileDialog.Filter" xml:space="preserve">
-    <value>Zip archives (*.zip)|*.zip|All files (*.*)|*.*</value>
-  </data>
-  <data name="&gt;&gt;flattenPathsCb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="browseArchivesCb.Text" xml:space="preserve">
-    <value>Include .zip archives</value>
-  </data>
-  <data name="progressBox.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="browseArchivesCb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 17</value>
-  </data>
-  <data name="&gt;&gt;sourceDirBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="destinationFileBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 47</value>
-  </data>
-  <data name="flattenPathsCb.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;sourceBrowseBtn.Name" xml:space="preserve">
-    <value>sourceBrowseBtn</value>
-  </data>
-  <data name="sourceDirBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="cancelBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;runBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="browseArchivesCb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 107</value>
-  </data>
-  <data name="&gt;&gt;destinationFileBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="destinationBrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="destinationFileBox.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="runBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="flattenPathsCb.Text" xml:space="preserve">
-    <value>Remove subdirectory structure</value>
-  </data>
-  <data name="browseArchivesCb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="runBtn.Text" xml:space="preserve">
-    <value>Copy directory structure</value>
-  </data>
-  <data name="&gt;&gt;sourceDirLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;destinationFileBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;destinationFileBox.Name" xml:space="preserve">
-    <value>destinationFileBox</value>
-  </data>
-  <data name="destinationBrowseBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;destinationFileDialog.Name" xml:space="preserve">
-    <value>destinationFileDialog</value>
-  </data>
-  <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 133</value>
-  </data>
-  <data name="&gt;&gt;destinationDirLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;destinationBrowseBtn.Name" xml:space="preserve">
-    <value>destinationBrowseBtn</value>
-  </data>
-  <data name="&gt;&gt;flattenPathsCb.Name" xml:space="preserve">
-    <value>flattenPathsCb</value>
-  </data>
-  <data name="flattenPathsCb.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="sourceBrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;progressBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;destinationBrowseBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.Name" xml:space="preserve">
-    <value>cancelBtn</value>
-  </data>
-  <data name="&gt;&gt;sourceDirBox.Name" xml:space="preserve">
-    <value>sourceDirBox</value>
-  </data>
-  <data name="&gt;&gt;flattenPathsCb.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="sourceBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 10</value>
-  </data>
-  <data name="cancelBtn.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="runBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 44</value>
-  </data>
-  <data name="destinationDirLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;runBtn.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;flattenPathsCb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;sourceDirLabel.Name" xml:space="preserve">
-    <value>sourceDirLabel</value>
-  </data>
-  <data name="sourceDirBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 12</value>
-  </data>
-  <data name="progressBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="flattenPathsCb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 17</value>
-  </data>
-  <data name="&gt;&gt;destinationFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;progressBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;destinationDirLabel.Name" xml:space="preserve">
-    <value>destinationDirLabel</value>
-  </data>
-  <data name="&gt;&gt;runBtn.Name" xml:space="preserve">
-    <value>runBtn</value>
-  </data>
-  <data name="&gt;&gt;sourceBrowseBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancelBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sourceBrowseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="sourceBrowseBtn.Text" xml:space="preserve">
     <value>Browse...</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Copy directory structure</value>
+  <data name="&gt;&gt;sourceBrowseBtn.Name" xml:space="preserve">
+    <value>sourceBrowseBtn</value>
   </data>
-  <data name="&gt;&gt;destinationFileBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;sourceBrowseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sourceBrowseBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;sourceBrowseBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="sourceDirBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="sourceDirBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 12</value>
+  </data>
+  <data name="sourceDirBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 20</value>
+  </data>
+  <data name="sourceDirBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sourceDirBox.Name" xml:space="preserve">
+    <value>sourceDirBox</value>
+  </data>
+  <data name="&gt;&gt;sourceDirBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sourceDirBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sourceDirBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
   <data name="sourceDirLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 15</value>
   </data>
-  <data name="&gt;&gt;sourceFolderBrowserDialog.Name" xml:space="preserve">
-    <value>sourceFolderBrowserDialog</value>
+  <data name="sourceDirLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
-  <data name="runBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 133</value>
-  </data>
-  <data name="progressBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 193</value>
+  <data name="sourceDirLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="sourceDirLabel.Text" xml:space="preserve">
     <value>Source directory:</value>
   </data>
-  <data name="&gt;&gt;progressBox.Name" xml:space="preserve">
-    <value>progressBox</value>
+  <data name="&gt;&gt;sourceDirLabel.Name" xml:space="preserve">
+    <value>sourceDirLabel</value>
+  </data>
+  <data name="&gt;&gt;sourceDirLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sourceDirLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sourceDirLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="sourceFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>187, 13</value>
+  </metadata>
+  <data name="destinationDirLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 50</value>
+  </data>
+  <data name="destinationDirLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="destinationDirLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="destinationDirLabel.Text" xml:space="preserve">
+    <value>Destination archive:</value>
+  </data>
+  <data name="&gt;&gt;destinationDirLabel.Name" xml:space="preserve">
+    <value>destinationDirLabel</value>
+  </data>
+  <data name="&gt;&gt;destinationDirLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;destinationDirLabel.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;destinationBrowseBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="destinationBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 45</value>
-  </data>
-  <data name="flattenPathsCb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 80</value>
-  </data>
-  <data name="&gt;&gt;runBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;destinationDirLabel.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -402,43 +225,572 @@
   <data name="destinationFileBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>379, 226</value>
-  </data>
-  <data name="sourceBrowseBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;sourceDirLabel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="progressBox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;sourceDirLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="destinationFileBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 47</value>
   </data>
   <data name="destinationFileBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 20</value>
   </data>
-  <data name="&gt;&gt;sourceDirBox.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="destinationFileBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;destinationFileBox.Name" xml:space="preserve">
+    <value>destinationFileBox</value>
+  </data>
+  <data name="&gt;&gt;destinationFileBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinationFileBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;destinationFileBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="destinationBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 45</value>
+  </data>
+  <data name="destinationBrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="destinationBrowseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="destinationBrowseBtn.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;destinationBrowseBtn.Name" xml:space="preserve">
+    <value>destinationBrowseBtn</value>
+  </data>
+  <data name="&gt;&gt;destinationBrowseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinationBrowseBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;destinationBrowseBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="runBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 133</value>
+  </data>
+  <data name="runBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 44</value>
+  </data>
+  <data name="runBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="runBtn.Text" xml:space="preserve">
+    <value>Copy directory structure</value>
+  </data>
+  <data name="&gt;&gt;runBtn.Name" xml:space="preserve">
+    <value>runBtn</value>
+  </data>
+  <data name="&gt;&gt;runBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;runBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;runBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cancelBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 133</value>
+  </data>
+  <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 44</value>
+  </data>
+  <data name="cancelBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="cancelBtn.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="&gt;&gt;cancelBtn.Name" xml:space="preserve">
+    <value>cancelBtn</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="destinationFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="destinationFileDialog.Filter" xml:space="preserve">
+    <value>Zip archives (*.zip)|*.zip|All files (*.*)|*.*</value>
+  </data>
+  <data name="progressBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="progressBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progressBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 193</value>
+  </data>
+  <data name="progressBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 20</value>
+  </data>
+  <data name="progressBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;progressBox.Name" xml:space="preserve">
+    <value>progressBox</value>
+  </data>
+  <data name="&gt;&gt;progressBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;progressBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="flattenPathsCb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flattenPathsCb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 80</value>
+  </data>
+  <data name="flattenPathsCb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="flattenPathsCb.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="flattenPathsCb.Text" xml:space="preserve">
+    <value>Remove subdirectory structure</value>
+  </data>
+  <data name="&gt;&gt;flattenPathsCb.Name" xml:space="preserve">
+    <value>flattenPathsCb</value>
+  </data>
+  <data name="&gt;&gt;flattenPathsCb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flattenPathsCb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flattenPathsCb.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="browseArchivesCb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="browseArchivesCb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 107</value>
+  </data>
+  <data name="browseArchivesCb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="browseArchivesCb.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="browseArchivesCb.Text" xml:space="preserve">
+    <value>Include .zip archives</value>
+  </data>
   <data name="&gt;&gt;browseArchivesCb.Name" xml:space="preserve">
     <value>browseArchivesCb</value>
+  </data>
+  <data name="&gt;&gt;browseArchivesCb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseArchivesCb.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;browseArchivesCb.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>379, 226</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAiIAAAAEACAAoUgAAFgAAACgAAACIAAAAAAEAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAQAABgoIAA4QDQAaGhcAABonAAEoNwAsKycAATFOAAA5WwAAPFkAAEFXAE5MSAAAUnMAXlpEAABb
+        cwBlYEwAAGBzAGhkTgAAZXMAaWJaAGxmWAAAa3MAAGiCAHNtXwCifSAAoXouAHFyawCrhSwAfnhqAF55
+        dAAAeZ0ApYY8AAd1uwCCfnYAAIOaAD6CiQC0jjkAZoKHAJWDdACtkU4Aw5c5AL2WRACPin0AAJKbAFGO
+        kwBBiLAAs5dYAL2cUwDMn0cAAJubAJeShwDHoE8AiJSPAJCUjQBllKMAs5t0ACCO2QAAkN4AYaCJAKmZ
+        iwDUp08AyadfAACS7ADWqFwAPpnDACmcwgAAntAAS5vBAAaS9wDarlcAAJP/AL+oeAA4o7gAAJzsABSf
+        4ADNsGsAy612AKamnwCup5kAK6DfALmthABSqLsAHKDvAGSkzACHqbAAYaq7AACg/wB5qLsA37dpAJCp
+        swBNrMAAn7KTANq3cAC7tIUAnqyrAACp8gAVqPAAyK+cAACo+AC3saEAMLTHALewqACAuKEAebO4AACv
+        7wAZre4AjLqcAGW4sABTr9cAAKz/AD+x3ADUvYgAeLTLAAK27QAAs/8AvrivAAC1+gAAt/UAtbi2AMm5
+        rQBhv74AALz1ANS9rQDFxpUAM8PTAOnIhQDSwKgADb/xAAC/+QDIwLYAIcjUAADA/wAaxekAAMXyAADD
+        /QCQwtYAYMfXAObOlAAAx/sAls20AADG/wAcz98A0ci/AAHK/wBwzNMAMsrvAOTRngDKycQAAMz/ABPO
+        9QADzvwAVsf8AHDF/AAA0P8AKtHyAFXV1gAA1P0As8zcACTY7AAA1v8Absz+AInN8gBQ2d4AFdb+ANvS
+        yQDU0s0Aw9HYAADc+AAA2/4A0dTSAEvW+gAp2P8AxNrEAH/S+gBW2PQA69fHAAbg/AB31f4AAOH/ADnd
+        /wBl2/gAttfqAKzc3gDd2tUAst/VADPh/AAA5v4AReD/AJ7Y/ABv3voARuP9AHzf+gAA7f4AUeX+AKHj
+        6gDk4dsAieL4AN3h3wA46f8Av+PnAFvn/wCQ5PgABfH8AJ7k9QAi7v8AmOX4ALbo5gAA8/8AZOn/AOnl
+        4AC24v0AsufxAPbn3ADW5uwAbev/ADLz/QCv6PoAg+z+AAD5/wDO6PMAdu79AH3v/ACM7v8A7+zmAEr2
+        /wCG8f0AAP/+AJTw/wCO8/0AnPL/AJb0/ADP7v8AnfX8AOfx8gCk9P8ArPX/AKb3/AD29O4A0fP+AK75
+        /AD/9uwAtPj/ALv5/wC1+/wAyfn/AMP6/wDR+v8Ay/z+ANj7/wDS/f0A/vv1APf7+ADg/f8A5v39AO/+
+        /wAAAAAA//////////////////////////////////////////////////////8A/wD/AP8A////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        AAAAAAAAAAAAAAD/AP//////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////8AAAAAAAAAAAAAAAAAAP//////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////wAAAAAAAAEAAgMDAAAAAAAAAAD/////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////8AAAAAAQMTKjtOMjIXBgAA
+        AAAAAP//////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////8A
+        AAAAARNlc3dOTmFOY2EXAgAAAAAA////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////AAAAACqBZWN3TmVlTmVOdzIDAAAA////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////AAAAACGBd2VlY2VjTmVOTk5jOwIAAAD/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////AAAAAAuTc3Nzc3dlZXdl
+        Y2VlZXMXAAAAAP//////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        AAAAAABOjoGBc2Vlk9G3gWVjY05jZQMBAAAA////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////8AAAAGk4Fzc2VlTk1NTXZlZWV3ZYELAAAA////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////8AAAAAE6STgY5lHAYBAAADGk53ZWV3IQAAAAD/
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////wAAACGkgY6BHAAA
+        AAAAAAATZWVzgTIAAAD/////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////wAAAAAapJOOgQYBAAAAAAAAA06Bc3cyAAAAAP//////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////AAAAIbeTjnMDAAAAAAAAAAAygXOBMgAAAP//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////AAAAACG3jqRlAgAAAAAAAAAAIZOBjjIA
+        AAAA////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////8AAAAht5Ok
+        dgIAAAAAAAAAACGOgY41AAAA////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////8AAAAAIbe3pYEAAAAAAAAAAAAqpIGOOwAAAAD/////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////wAAACG3t6SBAgAAAAAAAAAAMo6BpDUAAAD/////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////wD/AP8A/wD/AP8A/wD/AP8A/wAAAAAh0aS3dgIAAAAAAAAAADKl
+        k45OAAAAAP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/
+        AP8A/wD/AP////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        IdG3t5MCAAAAAAAAAAA1pI6OTQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8A/wD/////////////////////////////AAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAACHwt7e3CwAAAAAAAAADgaWTpU4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////////////////////
+        ////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAh0be30WUAAAAAAAAAIbeljrdOAAABAgABAQEB
+        AQEBAQAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ////////////////////////AAAAAAAAAAABAQEBAQEBAAEAAQEBAQEBAQEBAQEAIem3t7fRTQMAAAAA
+        IbekpZOkTQACAgICAgICAQIBAQEBAQEBAQEAAQABAQEBAQEBAQEBAQEBAQEBAQABAQAAAQEBAQEBAQEA
+        AQEBAAEBAQEAAAAAAAAAAAAA////////////////////AAAAAAAACR5CSkJKQkJCQkJCQkJCQkJCQkJC
+        QkJCOYfU0dHRt9GTTSEydtGkt6WOr504QkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJKQkJCQkJCSkJC
+        QkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCHgUAAAAAAP///////////////////wAAAAABHpSUhoyM
+        jIyMjIyMjIyMjIyMjIyMjIyMjHSh0dHR0dG30dHR0dG3t6S3t6SdYoaMjIyMjIyMjIyMjIyMjIyMjIyM
+        jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjI+MHgEAAAAA////////////
+        //////8AAAAAFpmDg4aDhoOMg4ODg4ODg4ODg4ODg4OMg4NyodTR0cXRxdHR0dHRt7e3t6WknW2Dg4OD
+        hoODhoyGg4ODg4yMg4ODg4ODjIODg4OGg4ODg4ODjIODg4CDg4ODg4aGg4OGg4ODg4ODg4aDg4ODg4OM
+        jJkWAAAAAAD///////////////8AAAAABHGGhoODhoOGg4aDg4OAjIODg4ODg4ODg4yDcqHw0dHR0dHR
+        0be3t7e3t7e31J1WhoaDhoODhoODg4OGg4aDg4ODg4yGg4OMg4aDg4OGhoOGhoODg4ODhoODg4aDg4OD
+        g4ODg4ODhoaDjIaDg4aGg4OMfwUAAAAA/////////////////wAAAAqUg4aDhoODg4ODg4aGjIODhoaG
+        hoaGjIyDg2281NHR0dHR0dHR0dHR0bfRt9SdVoaDg4aDg4aDg4ODhoOGg4OAjIyMg4OGg4OMg4yDhoOD
+        hoODg4aGjIODhoaGg4ODhoyDhoaGhoyDg4ODg4aMg4ODjJYMAAAAAP///////////////wAAAAAOlIyD
+        hoOGjIaMjIyDg4OMhoODg4ODg4ODjIODofDt0e3R0dHR0dHR0bfRt7fUnWKDhoyDhoaDjIyGhoOGg4aG
+        g4ODg4yGg4aGg4aDhoOMhoOMhoyDg4OMhoODg4aGhoODhoODg4ODhoaGjIaDg4yMjIOZDgAAAAD/////
+        ////////////AAAADpmUjJSMjIyMjIyMjI+Pj4yMjIqKioyKj4+McrzU6dHt0dHp39HRxcXR0dHR0Z1t
+        ho+MjI+Mho+MjIyMjIyKjIyMioqMjIaKhoyMjIyGlIyGj4yMjI+PioyGio+KjIyMjIyGj4qKj4yGjIyM
+        ho+MjIyMlg4AAAAA////////////////AAAAAA6DdHJ0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dGKh8O3R
+        7dHt0d/F7dHf0dHR0dSdVnR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dIYMAAAAAP////////////////8AAAAMcl9tYG1tX2JiYmJibW1t
+        bW1tcm1tbXJtYm1WofDt7e3f6dG3pbfR0d/R6dHfnURiYmJiYmJiYmJiYmJiX2JiX19yYmJfX3Jtcm1f
+        Yl9iYmJiYmJiYm1iYnJibWJtbWJiX3JiYm1tYnJtYmJtYmJfYm1yDAAAAAD///////////////8AAAAA
+        DqiZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZjKHw+9Ht7dGBgWV3ZbfR0dHR1LVtmZmZmZmZmZmZlpaZ
+        lmdOTk5OTk5OTk5OTk6ZmZmZmZmZmZmZmZmZlpm1nJmZmZmcnJmZnJmZmZmZlZXFmZmZmZmZqA4AAAAA
+        /////////////////wAAAA6ZjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj4Oh+vvt6e2ld3Z3gXOB3+3R
+        8NS1bYyMjIyMjIyMjIyMijoYGRkZGRkZGRkZGRkYH3+MjIyMjIyMjIyMjIyMFxEUERERERETERETERER
+        ERETHY+MjIyMjJkOAAAAAP///////////////wAAAAAOmY+MjIyMlIyUjJSMlIyMj4yPj4yPj4yMjIx1
+        ofrt+vr7jpOOk4F2jt/f6dHRtWCMj4+Gj4yMj4qGin8fGRgYHxkZGBgYGBkZGBhrho+MjIyPj4aPj4+M
+        Zw8UERQXFBQXERcUERcUFBQUERdVj4+GjI+cDgAAAAD/////////////////AAAAEJmUjIyGlIyMjIyM
+        jIyMjI+MjI+Mj4yMj4yPgKH6+/vt7beTpI6OgY7f3+nf8LVij4+MjI+Mio+Mhop/HxgYGRgYHxgYGxgZ
+        GBgYeI+MjIaKj4yGj4yMjE0RFxEXERQRERQUFBEUERcRFxEXUYyMjI+MmQ4AAAAA////////////////
+        AAAAAA6ZjIyUhoyUjIyMlIyUjI+Uj4yPjIyMj4yUj4xT3/r6+/u3pJOTjpOO6e3f3/BZYo+Pj4+Pj4+M
+        j4yKfx8YGRgZGBkZGRkZGxkniVqPj4+Pj4+Pj4yPj4aPEREXERcRFxcRFxEXFxQRFxEUGlqUj4+Mj58O
+        AAAAAP////////////////8AAAAOmZSKlIyUlIyUlJSMlIyUj4yMlIyUlI+Mj4+PQ6/6+/v6t6S3pKST
+        pN/t7frUNnSZj4+Pj4+Pj4+Kln8fHxsYJ2+Li4uLi4uLZmuPj4+Pj4+Pj4+Pj4+PmVcjIyMjIyMjIyMj
+        IyMjIyMjI1GPj4+Pj4+ZDgAAAAD///////////////8AAAAADqOMjJSUlIyUlIyUlJSUlI+PlIyPlIyP
+        j5SMmXEhpPv6+9G3t7e3pLf7+vrRO26Wj4+Pj4+Pj4+Pj4+FJxgZGS94j4+Uj4+Pj4+Pj4+Pj4+Pj4+P
+        j5SPj4+Pj4+Pj4+Pj4+MlI+Pj4+Pj5SPj4+Pj4+PnA4AAAAA/////////////////wAAABCjhquUjIyM
+        lIyMlIyMjIyMlJSMlI+Mj4+PjI+USCZzt8XR0dG3t7e3xdGOOyyPlI+Pj4+MjI+Mj4+PhR8ZGRknhI+M
+        j4+Pj4+Pj4yPj4+Pj4+Pj4yPj4+Pj4+Pj4+Mj4+Pj4+PjI+Pj4yMj4+Pj4yPj58QAAAAAP//////////
+        /////wAAAAAOn5SUq5Srq4yUlIyUlJSUlIyUlJSUlJSPlI+UlJlINTtht9/R0dHRt4FhTVGWmY+Pj4+P
+        mZaPmY+Pj4UfGxgfJ4SPlI+PlJSPj4+Wj4+Pj4+Pj4+Wj4+Pj4+Pj4+PmY+Pj5SUj5SPlJSUlI+UlI+U
+        j4+fDgAAAAD/////////////////AAAAFqOMq5SrlJSrlKuUlJSUlJSUlJSUlJSUlJSUlJSUlJGHU9XR
+        38XR0bdeU5GUmY+PlI+Pj4+Pj4+Pj5aFHxsZGC6ElJSUlJSUlJSUlo+Wj5mPj5aPj4+Pj4+PmYqKj4+P
+        lJSUlJSUlJSUlJSUlJSUj5SUnxAAAAAA////////////////AAAAARCfmauUq5Srq4arhpSrjJSUlJSU
+        lJSUlJSUlJSUlI+ZoESm+t/f0dGOJT6KmY+ZmZaWmZaZmZaWmZmPlhsbGxsnhJSUlJSUlJSZj4+Pj5aP
+        lpmPlpmKlpaZlo+WmZaKj4+UlJSUlJSUlJSUlJSPj5mUlJ8OAAAAAP////////////////8AAAAQq5Sr
+        jKurlJSrq6urq4yrlJSUlJSUlJSUlJSUlJSWq6DSc7ft7e3UWThSio+ZZ3d3c2N3Y3d3Y4FjYR8bGRkY
+        J5GUlJSUlJSUlI+ZlpaVqpGRkZGRkZGRkZGRkZGRrpaZmZSUlJSUlJSUlJSUj5mZj5SfEAAAAAD/////
+        //////////8AAAAADp+Uq6urq6urq6urhqurq5SUlJSUlJSZlJSZmZmZj6OY0vBzk7ekV0RGPoWrNxkZ
+        GRkZGRsZGxkZGRkbGxsbGy6ElpSUmZmZlJSZlJZVDRQRDxQPDxMRDxQPDw8UEw8PXo+ZlJSZmZSZlJSU
+        mZmPj5mWqA4AAAAA/////////////////wAAABCrlKurq5SrlLOUq6urq6urq6OrmZSUlJSZmZSUlI+W
+        mFeBgaS3k3BTU1KPhRkbHxsbGRsbGRsZGxkbGxsZGxsuhI+ZlpaUj4+WlI+ZGhQXERQXERQaERQaERMa
+        FBERFB2Ulo+WlJSPmY+WlpaPlJmZj58QAAAAAP///////////////wAAAAAOqJmzq6uqq7Orq6urs6ur
+        q6qrq6urmauUlJSZmZmZq7E+ODjb8MOkek1Sf6MZGxsfGxsYGRgbGBgbGRsZGxsbR5GjlpmZlpaWlpmZ
+        lhcRERQRERQRERQREREUEREaFBEdmZajlpaZlpmWlpaWo5aZmaOwDgAAAAH/////////////////AAAA
+        ELKUq6urq6uzlKqrq6urq6urq6qrq7Orq5mZlpmZlquxRkZG1fDFpI5lT5GjGyQZJBknXEtLS0tLS0tL
+        S0s9bzealpaWlpajo6uWlZkcExQaERMaERoUERQUGhEUFBERJZmVo4WjlZWjlaOjlqOFo5WroxADAwMD
+        ////////////////AAAAABCfmbOrs6uzq6uzq6uqq7Ozq7Orq6uqq6urq6uUmZmroJi1taaOd3Y1JVKG
+        lhkbJBszb2pmaotmaotqampmZmqRlpmZmZmZmZmZmZSZyywsLCwsLCwsLCwsLCwsLCwsLMSZmZmZmZmZ
+        mZmZmZmZmZmZmagQAAAAAP////////////////8AAAAWn6Ozs7Ozs7Ozs7Ozs7Ozs7Ors7Ozs7Ozs6u7
+        q6uZmaDS+tSkd004PkRShaMbJB8bL3iZn5mfmZmZmZmfn5+ZmZ+fn5+Zn5mZmZmfn5mZmZmZmZ+ZmZmZ
+        mZ+fmZmfmZmZmZmZmZ+ZmZmZmZmZn5mfmZmoEAAAAAD///////////////8AAAAADqijs7O7s7Ozs7uz
+        s7Ozu7Ozs7uzs7Ozs7uzs7uzs7Ogte3DpYFOUkZWUoWVGxkkG0eao5mZmZmfmZmZmZmZmZmZmZmZmZ+Z
+        mZmZmZmZn5Sfn5mZn5mfn5mZmZ+ZmZ+ZmZaZn5mZmZ+ZmZmfmZmZmZmZsBAAAAAA////////////////
+        /wAAABayn7O7s7O7s7uzs7uzu7Ozu7uzs7u7s7uzs7uzs7PBsVNeXtHRk6ZeV1KFliQbJBlHkZ+ZmZ+Z
+        n5mfn5+ZmZmfn5mZmZmfmZ+fn5+Zn5mfmZmZmZmZn5mZn5mZmZ+ZmZ+fn5+Zn5mfmZ+fn5mZn5+Zn7AQ
+        AAAAAP///////////////wAAAAAQsqu7u7u7u7u7u7u7u7uzu7O7u7u7u7u7u7u7u7u7qrFERETn8NGk
+        d01ShaMbJCQkR5qZn5+Zn5mfmZmZn5+fmZmfn5+fmZ+ZmZmZn5+Un6Ofn5+fn5mfn5mfn5+Zn5+WmZmZ
+        n5mflp+Zlpmfn5mZn5myEAAAAAD/////////////////AAABELKfu7u7s7uzu7u7u7u7u6q7u7vBu7u7
+        s7u7u7u7u8GtVlZS2+23jnpOUoWjGSQbHy+amZ+ZmZ+Zn5mjn5+ZmZmfn5mWmZmZn5mfn5+Zn6OZn5mf
+        mZmZn5mZn5mWmaOZmZ+cn5+ZnJmfmZyfn5mZn5+ZshAAAAAA////////////////AAAAABCyq8G7waq7
+        yLu7u7vBu7u7u8i7u7u7u6q7u8G7u7vIoLztxaV3ZVQ2LWCFoyQkJCRHkaOfn5+fnJmfn5mcn6icmZ+f
+        qJ+on5+Zn5mjn6Ofo5+jo6Ojn5mjn5+fn6Ofo5yco5yjnKOjnJ+jn5mfn5mZn7AQAAAAAP//////////
+        //////8AAAESsqi7qsHBu8HBwbvIu7u7yLvBu8G7wbvBwbvBu8HByLHS+tGld01SRlZSkaMkGSQkLruf
+        n5+fn5+fn5+EW2E3YUdMYUdhR2FHR42jn5+fn5+fn5+fn5+fo2RNTU1NTU1NTU1NTU1OTU1NTU1NTk1O
+        TXy6EgAAAAD///////////////8AAAAAELKryLvBwcG7qsGqwarIwcG7u8i7yLvBwcGqwarBu9Cxh6+v
+        pI5zbE9SUqrIJCQkJEean5+fn5+fn6iVNyQkJCQkGxkkGSQZJBsvkJ+fn5+fn5+fn5+fn4gUEQ8REREP
+        EQ8UExEPDxMRFA8UDw8PDw8hshAAAAAA/////////////////wAAARa6q7vByMGqwcHBwcHIu8iqyLvI
+        qsiqyMiqwcjBwcHQsTgtQ9Xtw6R+XkqqriQkJBtHmp+fn5+fn5+flSkoGSQkJCQkJCQkJCQkKWufn5+f
+        n5+fn5+fn59lDxQUFxQUFBcUFxERFBQaERERFBEUGhQaEbIQAAAAAP///////////////wAAAAAQsqvI
+        yMiqyMjIyMjIyMjIyMjIyMHIyMHIwcjIyMjB1q1WRmLn+sWkek1gqtAZKCQkR7SoqJ+fn5yfqJUuJCQk
+        JCQkJCQkJCQkJC94sp+fn6ifsqOfn5+odg8REREREREUEREUFBERERQUFBEaFBERERe6EgAAAAD/////
+        ////////////AAAAEMC5v9zW0MjByMjIyMjIyMHIyMjIyMjIyMjIyMjIyNaxaa2hpreBgTs0YKrQJCQk
+        JEe/yL6jqJ+oqKiVKSQkJCg9PT09S0tLPVySrqirqJ+on5+fn6ifsJoXERcXFxcXFxQUFBcXFxcXFxQX
+        FxERFBMquhAAAAAA////////////////AAAAABC6s+Xl497Z2dbIyMHIyMjIyMjI0NDIyMjI0NDIyMjQ
+        sdL61KR3Y0BPOVKq1iQpJyRHxMjQ0MG5o5+fmi4kJCc9b6Kiopubm5ubfKifqJ+on6ioqKifqKOfrmRk
+        ZGRkZGRkfGRkZGRkZGRkZGRkZGRkrroSAAAAAP////////////////8AAAASuqvq5cnl5ePj3tnZvdDQ
+        yNbI1sjIyNbI1sjIyNDQ1qDS+t+Td01SVm1Sqr0kJCQoS73Q0NDQ0Mi5p5ovKCkpP42on6ifsrKoqLKo
+        n7Kfsp+on6ifn6ion6ion6ifqJ+oqKirqKioqJ+jqKioqJ+fqKi6EgAAAAD///////////////8AAAAA
+        FsC56url5ePj4+Pj3t7e2dnW0NDW1sjI1sjW1tDQyNyxcHN20beOh3BDYK7QJCgkJDfEyNDQ0NDW1tDQ
+        JyQkJDeen7Kfsp+fn5+fn7Kfsp+yn7Kfsqion6ion6ioqJ+on5+oqKioqKioqKioqJ+oqKiyuhIAAAAA
+        /////////////////wAAARK6q+vN6urJ5ePj4+Pj497e3t7Z3dzW1tbI1sjQ0NDcsUk4T9Xt0aR6TVKu
+        3CgkKSRM3tDW0NbW1tDWvy4oKSQ9np+yn5+fqKioqKion6ifqKion6ifqKioqKioqKioqKioqKion6io
+        n6ioqKioqKioqLoSAAAAAP///////////////wAAAAASusbr6+rq6urq5ePl4+Pj3t7e3t7Z2dnd2dbW
+        1tbI3K1tbWLn8MOkgU1grtYkKSQoR97W0NbQ1tDW0L0vJCQoL5qyn7KysqioqKioqKioqKioqKiosqio
+        qKioqKioqKioqKioqKioqKioqKioqKioqKi6EgAAAAD/////////////////AAAAFrrG2Ovq6urq5eXl
+        5eXj497j497e3uTe2dnd2dnc3Nmxrdu1qY5zXjQlSbTcKCgpKUfZ1tbc1tbW1tbZLygpKSlhu6ufmZ+f
+        n6iysqiosqiyqKiosKioqKiwqKioqKiosKiwqKiosKiop6ioqKioqLKouhIAAAAA////////////////
+        AAAAABLAs/Hr8evry+rq6url5eXl4+Pj4+Te3t7k2eTZ5N3ksdL61KR3TmlgYmCu3SQpKSlHxNzW1ta9
+        1tzcvS8pKSkpJCgkKCQoJCgpXaiosqioqKiosqiyqLKoZDIqKjIqKioqKioqKioqKjIqMioqKioyfMAS
+        AAAAAP////////////////8AAAASurnx8djr8evq6+rq5eXq5eXj4+Pk4+Pe3uTe3uHZ47HS1NSlgWNP
+        X2JgtNkpKSkpR97c3Nzc3Nzc3NkpKSkpKSkpKSkpKSkpKTNrsLCyqLKosqioqKiyiBERERERERERFBEU
+        ERERERERERERERERERzAEgAAAAD///////////////8AAAABFcC59djx8evr8evr6uvq6uXl5eXo5ePm
+        5uPj3t7e2eSxQDZXxd+3pnNUYLTdKDApKEfe3Nzc3Nzc3NzZLygpKSgoKSkpKSkpMCkpeLKosrKosrKy
+        srKysHMTFBEXEREXFBEXEREUFBQUFBQRERcRFxEXuhIAAAAA/////////////////wAAABK6vvXy8vLx
+        8djr6+vr6uvq6urq5eXj4+Pj5N7j5OTmrWJiYu7w345+TWm04SkpKSlH49zc3N3d3Nzd3i8pMykpKSQo
+        KCgoKCgpS7i+srKosrCyqLKysqh2DxERFBQUFBQRFBEUFBQRFBQRFBQRFBERF7oVAAAAAP//////////
+        /////wAAAAAVwMb19fLY8tjx8fHr6+vr6uvq6url6ujl4+Xm5uPj6LFyaZfb0amOdzVKveQwKTMwR+PZ
+        2dzc3Nnd3d4zKSkoMFyJiYmJiYmSiazj3dzBxrKoqLCyqLKwsBwXFxcXFxcXHBccFxwXHBwXHBccFxwX
+        HDbKEgAAAAD/////////////////AAAAErq59PXY9fLy8fHx8djx6+vr6urq6url6uXl4+Xj4+ix2PDF
+        k4FNV0NAYLTjKSkpKVDj4d3d5NnZ3d3ETCkwKUu4wvHCwuvCy8Ld3dnZ2eHIubCwsLKysrCzfHx8fHx8
+        fHx8fHx8fHx8fHx8fHx8fHyywBUAAAAA////////////////AAAAARXAxvT09fX19fXY8vHx8fHr6+vr
+        6+rr6uXo7Orl6ObosdL636R3Tmltcmm/5CgpPyhd5Nnh3eHd4eHh4y8pKTA9yd3Z3d3k3eTh4eHh4eHZ
+        3uHcxrqysLKwsLC6sLCnuqewsLKysrqysrK6srKysrKyssASAAAAAP////////////////8AAAASuuD2
+        9PT39fXY9fXy2PLx8djx8evr6+rr6+rq7Ojl6rGHpKSkpHNsbm5gveMoKSgoXePe4eHh2eHh4ckvKTAp
+        TOjh5OHk5Nnk2eHZ2eHh4eHh5OThwbm6sLq6sLC6urqyurq6sLK6srKysrq6urKysrDAEgAAAAD/////
+        //////////8AAAAAFcDG9vb09PT19fXy9fLy8vHx8fHr6+vr6urq6urq6u+xT0BA1e3DpHpNab/oKT8v
+        P13j5OTe3uHe4eHmPT8pMD3N5OHk5N7k4eHe4eTk4d7k5OTh3ubk0MawsLqwurqnurKnsLq6srK6urKy
+        srK6urq6yhUAAAAA/////////////////wAAARW64Pj29Pf09PT19fXy8vLY8vLx8fHx8evr6+vq6urr
+        rXJiaPz6w6R+Xmm/7CgwKTBH6Obk3uTk5OTexDMpKTNM7N7k3t7e5OTk5OTm5N7e5OHe3uPk4ebj3caw
+        p7qnurq6zLC6urK6srK6urKysrqyssASAAAAAP///////////////wAAAAASysb4+Pb29Pf09PX09fX1
+        8vLy2PHy8fHx8fHr6+vr87+XyaGmpJNzTjRpv+gpMz8pMHfe3t7j3t7e3kwzMD8pPc3k3uTk5OTe3t7k
+        4eTr8vHT8/Lx8dPx8dP18ebcwdDB0MHBwbq6srq6urq6urq6urrAFQAAAAD/////////////////AAAA
+        FcrG+Pj29vb29Pf39PX09fX19fLy8vLx8fHx6/Hx6/Gx0vDUpXdNbEJKaMTrMD8wKT8oMDMzPy8/MzMw
+        Mz8zMD3v5ubk5ubm4+Tm5uO2GhcXFxoRGhcXGhcXERcUFxoXFxcaFxcyxrq6urq6urK6urK6yhUAAAAA
+        ////////////////AAAAABXAxvz8+Pj29vb29Pf09fT19fX19fLy8vLy8fLx8fHysdj60aRzTmmDdGnE
+        6zAwMz8wMz8zMzMwMzAwPzAzMDBM6+bo6OPj4+bo5ubmFBQREREUFBQRERQRERoUFxEUFBEUEREUD42y
+        urq6urrMsrq6ssAVAAAAAP////////////////8AAAAVz+D8/Pj4+Pj2+fb29vf39/T19fX19fL18vLy
+        8fHx8r9VTV7Dw6SdWVVpxO8zMzMwMzMwMzAzMDMwMzAzMzAwS8Lm6OPj6Obm6OPl6BERERcUFxEXERQX
+        ERQXERERFxERFxEUFBGesrq6urq6urrAurrPFQAAAAD///////////////8AAAAAFc/G/fzu+Pj4+Pj2
+        9vb29vT09/T19fX18vLy8vXy8vWxdGlp5/DDpHpNacTxMD8wMDAwPzA/MD8wPzA/MDAwS4nx6Ojo6Ojo
+        6Ojo6OYTERQREREXERcRERQRERQUFBEUFxEXERETosC6wLq6urq6urq6zxUAAAAA////////////////
+        /wAAABXPvv387vz8+Pj49vb59vb0+ff09PT39fX19fX18vLyxHJydefww6R6TWnE8z8wMz89fYmJiYmJ
+        iZKSkpKJkpK45eXs5ejo5ejl6OjoXhwcHBwcHBwaHBohHBohHBocHBwaHBwXNfHkyMy6urq6usC6utoV
+        AAAAAP///////////////wAAAAAVz+D9/f385/z4+Pj4+Pb2+fT2+ff09Pf09PX18vX19bHE1duTjmNU
+        VCxpyfIwMz8wXKzHuMe4x7jHuMe4zsfO6uzs5ezq7Ozq7Orq6OXO07a207a2zrbOts62ts7OttO2ttO2
+        0/Hs7PHl3Ne6urq6usDPFQAAAAD/////////////////AAAAFc/G/v39/Pz9/Pz8+Pj4+Pj4+ff29Pf3
+        9PT19/X39fWx2PDRk4FNcXJ0aMnyPDM/MG/T7+vr6uzs7Ovs7Orq7Ozs6urs6uzq6uzs7Ozq7Ors7Ors
+        6urq6urq6urq6urs7Ozs7Ozs7Orq6vHq4eDAwLrA2hUAAAAA////////////////AAAAARXP4P7+/f39
+        /O787vz8+Pj5+fj4+fn29Pf39/T39fX0sdPU1KSBY25/cWnN9TA/Mz976/Hv6/Hr6+vv6+vv7+vq6+zs
+        6+zq7+zq6urq7+vv6+rv6u/v7+/v7+/v7+/v6urr6+vr6urs7+zs7+vx6MjMwMoVAAAAAP//////////
+        //////8AAAAV2sb+/f39/Pz8/fz87vj4+Pj4+Pn5+fn59vT59/T0979INlfF37eTflRpyfc9PzM/e/Px
+        7/Hx7/Hz8evv7+vr7+/v6+/v7+/q6+/v7+/q7+rv7+rv6urq6urq6urq6urv7+/s7+zv7+/q6+rq7/Px
+        68zPFQAAAAD///////////////8AAAAAFc/g/v79/f39/fz8/fz8/Pj8+Pj4+Pj59vn29/T39/atdHSA
+        9u3RpYFNccv3MDM8MG/T8vLx8fLx8fHx8fHv7+vr6+/r6+vr8+/r6+vr8evx6+vx6/Hx8fHx8fHx8fHx
+        6+vr8e/x6+vr8+/z8+vr8fPX2hUAAAAA/////////////////wAAABDawPX7/v7+/v79/f38/f38/Pz8
+        +Pj4+Pj5+fb4+fn2xHmul9XDpIFhNWnL9z88Pz8/b/Xy8vLz8fPx8/Px8fHx8/Px8e/v8fPr8fPz8+np
+        6enp6en76enp6enp6enp6enp6enp9e/x8/Pr8evr8/HzxsoVAAAAAP///////////////wAAAAAMus/M
+        6Pj+/f39/f39/fz8/Pz4+Pj8+Pn4+Pj2+fn5+LHY+tGkd05VUUFozfkwPz8/Pz8/PD88Pz8/Pz8/Pz8/
+        rPLz8/Hx8fPx8+/v800NDQ8NDQ8NDQ8NDQ8NDQ8NDw0NDw0NDSry8+/v8/Hz8fPz8cziFQAAAAD/////
+        ////////////AAAACIPPz8DAzMzMzMDMzMzMzMzMzMzMzMzAzMrMwMzAzMa92PrRpHdlhIyPaJ7XPz8/
+        PEVFPz8/Pz8/Pz8/Pz88PVz38vLx8/Pz8/Px8vITFxcUERcUERcUERcRFBcRFBcRFxQRFBETzvPz8vLx
+        8/Hz8vLg2hUAAAAA////////////////AAAAAAxEdKjKz8rPz8/PytrKysrKysrPz8/Kz8/Pys/KysrK
+        vWd+foFQKnGAg2nGyjxFRT8/P0VFP0U/RUVFPDxFPz9vzvLy8vLy8vLy8vPzERERERcRERcRERcRFxER
+        FxERFxERFxcUEc7y8vPy8vLy8vLyzOIVAAAAAP////////////////8AAAAMbT4+aIqFhYWVlZmclaOn
+        qKenuqeyp7q6urrAwMrKysyNgoKCgoKnp6inp8w/Pz8/RUVFPz9FP1g/Pz9FRUV9b/b18vLy9fL18vLy
+        8hERFxEXERcRERcRERcRERcRERcRERcRERHO9fLy8vLy8vLy8tfiFQAAAAD///////////////8AAAAA
+        DG1fSUk+Pj4+Pj45Pj4+Pjk+PjlJOUlJOUk5STlJOUlJSUlJSUlJSUlKSUk5RUU/RUWSkpKSkomSkpKS
+        kpKSb6z19fX19fX18vLy9fV2HBocHBwcHBwcHBwcHBwcHBwcHBwcHBw19/L19fXy9fLy9fXg4hUAAAAA
+        /////////////////wAAAAxyX19fX2JfX19fX19fX19fX19fYl9fX19fX19fX19fX19fX19fX19fX2Jg
+        aT8/P1hcZ2xsbEBsoqKbuNXV2+739/f19fX19fX19fX19cfb28fH28fb28fbx9vH28fbx9vH28fb9/X1
+        9fX19fX19ff34OIVAAAAAP///////////////wAAAAAMg2h0dHRodHR0dGhodHR0dHR0dGhydGh0dHR1
+        dXR0dHR0dXR0dHR0dHRodXU/RUU/W2h0dHR0SWjKytz49/f39/X09Pf39/X39/f39fX39ff39/X39fX1
+        9fX19fX19fX19fX19fX19fX19fX39ff199fiFQAAAAD/////////////////AAAADIN0dXV1dXV1dXV1
+        dXR1dXV1dXV1dXV1dHV1dXR0dXV1dXV0dXV1dXV1dXV1P0U/P2p0dHV1dXFJp8/g/Pn5+ff39/f39/T0
+        9PX19ff39/T39PT09/T39/f39/f39/f39/f39/f39/f39/f39/f39/fX4hUAAAAA////////////////
+        AAAAAAyGeXl5eXV5dXV5eXl5dXV1dXV5dYBxdXl5eXV5eXV5dXV5eXl5eXmDdXl5cUU/WEVmcXmAdYB5
+        X3/a4Pj59/f5+fn39/f39/f29vb09PT39/f39/f39/T09PT09PT09PT09PT09PT09PT09PT09/f24OIV
+        AAAAAP////////////////8AAAAOioCAgICAioB5inmAgIB5ioB5inmKgICKgHmAeYCAgICAinl5eYCA
+        gIB5hn9FP1g/ZoCAgICAgGiF2uD8+fn5+fb2+fn5+fn5+ff39/f39/f39/f39/f39/f39/f39/f39/f3
+        9/f39/f39/f39/f59tfiFQAAAAD///////////////8AAAAADpaKioqAhoCGioCKioCKioCKioCKgH+G
+        gIqKgIqKioqKioCKioqAhop/ioaFWFhFRWaKioqAioVoccra9f34+Pj5+fn5+fn5+fn5+fn5+fn2+fn5
+        +fb2+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/PHP4hIAAAAA/////////////////wAAABCZioqKipaW
+        lpaFloqKloqKloWKloqWipaWioqWhY+Fio+FmYqFipaWj4qKhJJ9fYlrj4qPlpaFgHHP2uDy/P39/f39
+        /fz8/fz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8+PfX2toMAAAAAP//////////
+        /////wAAAAAQn5aFlpaFhYWFloWZloWFmYWWmYWZhZaFhYWZhZaVhZWFhYWZlZmFhYWWmZaEa2Z4loWV
+        lYWFloVop9rayuDg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODK
+        z9qPBwAAAP//////////////////AAAAEqiVnJyclZycnJyWnJyVnJyVnJyVnJWcnJycnJWcnJycnJyc
+        nJWclZyco5yVlpyVnJWcnJycnJychXGn2tra2trP2trP2trP2tra2tra2tra2uLa2tra4tra2tra2tra
+        2tra2tra2tra2tra2tra2s+cOAEAAAAA////////////////AAAAABCon6OjlZyjo6OjqKOVnKOcnKOc
+        nJyco6Ojo5yco6Oco5yjo6OjlZyjo5ycnKiVnKOclZycnJycnJyFaJy6wMDAwLrAwLq6wLq6wLq6urq6
+        urqyurq6sLCwsLCwqLKoqKioqLCoqJ+on6iwn6ioqJV0PgUAAAAA//////////////////8AAAASsKif
+        qKioqKioqKifqKioqKioqJ+oqKioqKioqKioqKOoo6ioqKioqKioqKion6ioqKioqJycn6ioqJyWj5mM
+        j4yMhoyDjIaDg4N0g3R0cnJycnJtbW1ybXJtbW1iYmJiYmJiVmJWYlZiVlZiVlZEIAUAAAAA////////
+        //////////8AAAAAErqop6inqKioqKiop6ioqKinp6iwp6ioqKioqKeoqKioqKinqKioqKioqKenp7Co
+        qKinqKeosqenp6iycR4MCgoKCgoJCgkJCQkJCQkJCQkJCQkJCQkJCAgICAgICAgICAgICAgICAgICAgI
+        CAgHBAAAAAAAAAD//////////////////wAAABK6sKeysLCwsLCwp6ewp6ewsLCwp6ewp6ewp6ensKew
+        p7CwsLCwp6ewsKensLCwp6enp7Cnp7Kyp6e6QQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///////////////////wAAAAAVwLq6p7CwsLCwsLq6sLq6
+        sLCwsLqwsLCwsLq6urCwsLq6urqwsLq6sLC6urCwsLC6urqwurK6srLAQQEAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////AAAA
+        FcC6urK6urq6urq6srK6srK6urq6srq6urq6srKyurq6srKyurq6srK6urKyurq6urCwurq6urrAsgUA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////////////AAAAARXawLrAwMC6wMDAwMDAusDAwMC6usC6usDAwMDAwLrAwMDAwLq6wMDAwMDA
+        wLq6usDAurC6usC6wHwAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+        AAAA/wAAAP8A//////////////////////////8AAAAVz7q6wLq6usC6urq6urrAurq6usDAusDAurq6
+        urq6wLq6urq6wMC6urq6urq6wMDAurrAwMDAus8xAAAAAP//////////////////////////////////
+        //////////////////////////////////////////////////////////8AAAAAENrAwMDAwMDAwMDA
+        wMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDiKwEAAAAA////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /wAAAAraz8DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA
+        4hUAAAAA////////////////////////////////////////////////////////////////////////
+        /////////////////////wAAAAABhOLPysDKysrAysrKysrKwMrKysrAwMrAwM/KysrKysDKysrKysDA
+        ysrKysrKysDAwMrKz8DA2soFAAAAAP//////////////////////////////////////////////////
+        ////////////////////////////////////////////AAAAAQm64s/KysrPz8/Pz8/Az8/Kz8/AwM/P
+        z8/PwMDAz8/Pz8DAz8rKys/Az8/Pz8/Pz8/Pz8rP4uIWAAAAAAD/////////////////////////////
+        /////////////////////////////////////////////////////////////////wAAAAAADI/P2uLi
+        4tri4uLi4tra4uLi4uLi4uLi4uLi4tri4uLi4tra2tri4uLi4uLi4uLi4uLi2qcWAAAAAAD/////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////AAAAAAAEDB4eHh4eIiIiIiIrKysrKysxMTExMTExMTExMSsrKysrKysrKyIrIiIiIiIiIiIi
+        Hg4EAAAAAAD/////////////////////////////////////////////////////////////////////
+        /////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////////////////////////
+        ////////////////////////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////
+        //////////////////////////////////////////////////////////////////////////8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AP//////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////AP8A/wAAAP8A/wD/AAAA/wD/AP8A/wD/AP8A/wAAAP8A/wD/AAAA/wD/AP8A
+        AAD/AP8A////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////6r//////////////wAAAP/////8AF//////////////AAAA//////AA
+        P/////////////8AAAD/////wAAH/////////////wAAAP/////AAAP/////////////AAAA/////4AA
+        Af////////////8AAAD/////gAAD/////////////wAAAP////8AAAH/////////////AAAA/////gAA
+        AP////////////8AAAD////8AAAAf////////////wAAAP////4AAAD/////////////AAAA/////AAA
+        AH////////////8AAAD////+AAAA/////////////wAAAP////wAAAB/////////////AAAA/////gAA
+        AP////////////8AAAD////8AAAAf////////////wAAAP////4AAAD/////////////AAAA/////AAA
+        AH////////////8AAAD////+AAAA/////////////wAAAP/1VVQAAABVVVVVVVVVV///AAAA/4AAAAAA
+        AAAAAAAAAAAK//8AAAD8AAAAAAAAAAAAAAAAAAB//wAAAPgAAAAAAAAAAAAAAAAAAD//AAAA8AAAAAAA
+        AAAAAAAAAAAAD/8AAADgAAAAAAAAAAAAAAAAAAAP/wAAAOAAAAAAAAAAAAAAAAAAAAf/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAA/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAP/AAAA4AAAAAAA
+        AAAAAAAAAAAAA/8AAADAAAAAAAAAAAAAAAAAAAAD/wAAAOAAAAAAAAAAAAAAAAAAAAP/AAAAwAAAAAAA
+        AAAAAAAAAAAAB/8AAADgAAAAAAAAAAAAAAAAAAAD/wAAAMAAAAAAAAAAAAAAAAAAAAf/AAAA4AAAAAAA
+        AAAAAAAAAAAAD/8AAADAAAAAAAAAAAAAAAAAAAAH/wAAAOAAAAAAAAAAAAAAAAAAAB//AAAAwAAAAAAA
+        AAAAAAAAAAAAH/8AAADgAAAAAAAAAAAAAAAAAAD//wAAAMAAAAAAAAAABERERERERf//AAAA4AAAAAAA
+        AAAP//////////8AAADAAAAAAAAAAAf//////////wAAAOAAAAAAAAAAD///////////AAAAwAAAAAAA
+        AAAP//////////8AAADgAAAAAAAAAA///////////wAAAOAAAAAAAAAAH///////////AAAA8AAAAAAA
+        AAA///////////8AAADwAAAAAAAAAH///////////wAAAPgAAAAAAAAA////////////AAAA/AAAAAAA
+        AAF///////////8AAAD/qKiqqKior////////////wAAAP//////////////////////AAAA////////
+        //////////////8AAAD//////////////////////wAAAP//////////////////////AAAA////////
+        //////////////8AAAD//////////////////////wAAAP//////////////////////AAAA
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Copy directory structure</value>
+  </data>
+  <data name="&gt;&gt;sourceFolderBrowserDialog.Name" xml:space="preserve">
+    <value>sourceFolderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;sourceFolderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinationFileDialog.Name" xml:space="preserve">
+    <value>destinationFileDialog</value>
+  </data>
+  <data name="&gt;&gt;destinationFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="sourceFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>187, 13</value>
-  </metadata>
-  <metadata name="destinationFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>
