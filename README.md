@@ -11,7 +11,10 @@ Or you have a directory with many files and subdirectories which you need to sea
 
 Download
 --------
-TO BE DONE. For now, you can build the solution yourself using Visual Studio.
+
+Binaries can be [downloaded from SourceForge](https://sourceforge.net/projects/dirstructurecpy/files/). You can choose from portable binaries for .NET 3.5 or a Windows installer.
+
+**[Download the latest version](https://sourceforge.net/projects/dirstructurecpy/files/latest/download?source=files)**
 
 How it works
 ------------
