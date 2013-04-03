@@ -112,23 +112,23 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="sourceBrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="sourceBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 10</value>
+    <value>305, 10</value>
   </data>
   <data name="sourceBrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="sourceBrowseBtn.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -139,7 +139,7 @@
     <value>sourceBrowseBtn</value>
   </data>
   <data name="&gt;&gt;sourceBrowseBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sourceBrowseBtn.Parent" xml:space="preserve">
     <value>$this</value>
@@ -154,7 +154,7 @@
     <value>115, 12</value>
   </data>
   <data name="sourceDirBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 20</value>
+    <value>184, 20</value>
   </data>
   <data name="sourceDirBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -163,7 +163,7 @@
     <value>sourceDirBox</value>
   </data>
   <data name="&gt;&gt;sourceDirBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sourceDirBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -187,7 +187,7 @@
     <value>sourceDirLabel</value>
   </data>
   <data name="&gt;&gt;sourceDirLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;sourceDirLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -195,7 +195,7 @@
   <data name="&gt;&gt;sourceDirLabel.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <metadata name="sourceFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="sourceFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>187, 13</value>
   </metadata>
   <data name="destinationDirLabel.Location" type="System.Drawing.Point, System.Drawing">
@@ -214,7 +214,7 @@
     <value>destinationDirLabel</value>
   </data>
   <data name="&gt;&gt;destinationDirLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;destinationDirLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -229,7 +229,7 @@
     <value>115, 47</value>
   </data>
   <data name="destinationFileBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 20</value>
+    <value>184, 20</value>
   </data>
   <data name="destinationFileBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -238,7 +238,7 @@
     <value>destinationFileBox</value>
   </data>
   <data name="&gt;&gt;destinationFileBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;destinationFileBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -246,8 +246,11 @@
   <data name="&gt;&gt;destinationFileBox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="destinationBrowseBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
   <data name="destinationBrowseBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 45</value>
+    <value>305, 45</value>
   </data>
   <data name="destinationBrowseBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -262,7 +265,7 @@
     <value>destinationBrowseBtn</value>
   </data>
   <data name="&gt;&gt;destinationBrowseBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;destinationBrowseBtn.Parent" xml:space="preserve">
     <value>$this</value>
@@ -286,7 +289,7 @@
     <value>runBtn</value>
   </data>
   <data name="&gt;&gt;runBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;runBtn.Parent" xml:space="preserve">
     <value>$this</value>
@@ -298,7 +301,7 @@
     <value>False</value>
   </data>
   <data name="cancelBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 133</value>
+    <value>217, 133</value>
   </data>
   <data name="cancelBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 44</value>
@@ -313,7 +316,7 @@
     <value>cancelBtn</value>
   </data>
   <data name="&gt;&gt;cancelBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cancelBtn.Parent" xml:space="preserve">
     <value>$this</value>
@@ -321,7 +324,7 @@
   <data name="&gt;&gt;cancelBtn.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="destinationFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="destinationFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="destinationFileDialog.Filter" xml:space="preserve">
@@ -337,7 +340,7 @@
     <value>15, 193</value>
   </data>
   <data name="progressBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 20</value>
+    <value>355, 20</value>
   </data>
   <data name="progressBox.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -346,7 +349,7 @@
     <value>progressBox</value>
   </data>
   <data name="&gt;&gt;progressBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;progressBox.Parent" xml:space="preserve">
     <value>$this</value>
@@ -373,7 +376,7 @@
     <value>flattenPathsCb</value>
   </data>
   <data name="&gt;&gt;flattenPathsCb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;flattenPathsCb.Parent" xml:space="preserve">
     <value>$this</value>
@@ -400,7 +403,7 @@
     <value>browseArchivesCb</value>
   </data>
   <data name="&gt;&gt;browseArchivesCb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;browseArchivesCb.Parent" xml:space="preserve">
     <value>$this</value>
@@ -408,14 +411,14 @@
   <data name="&gt;&gt;browseArchivesCb.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>379, 226</value>
+    <value>386, 226</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -779,18 +782,18 @@
     <value>sourceFolderBrowserDialog</value>
   </data>
   <data name="&gt;&gt;sourceFolderBrowserDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;destinationFileDialog.Name" xml:space="preserve">
     <value>destinationFileDialog</value>
   </data>
   <data name="&gt;&gt;destinationFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
