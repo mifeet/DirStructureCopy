@@ -102,7 +102,7 @@
             {
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:2"
+            "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
                 "Items"
@@ -140,7 +140,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                "FrameworkVersion" = "8:.NETFramework,Version=v3.5,Profile=Client"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=131000"
                 }
@@ -267,7 +267,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DirStructureCopy"
         "ProductCode" = "8:{A4DE783D-B6B3-4F2F-93F2-AEF11F7DE6D2}"
-        "PackageCode" = "8:{31F094A2-4149-4A3B-92D6-D81D90DCA196}"
+        "PackageCode" = "8:{250A9CA2-8655-488D-8923-F9FC3DAD3EAD}"
         "UpgradeCode" = "8:{80B39E1B-D689-492F-90D5-C0F2D8600223}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -393,12 +393,12 @@
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
             "Target" = "8:_52E62FA030F644D4A423251927B3D56D"
             "Folder" = "8:_BC75A016224D4123B4F66C28FE7005E4"
             "WorkingFolder" = "8:_D0F189B6F3C24DB5820D3BF77F9F917F"
-            "Icon" = "8:"
+            "Icon" = "8:_52E62FA030F644D4A423251927B3D56D"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A7337D8734294887825858504C1B0AEC"
@@ -407,12 +407,12 @@
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
             "Target" = "8:_52E62FA030F644D4A423251927B3D56D"
             "Folder" = "8:_C0A7D6B506614A3D908C2F3BA417CD15"
             "WorkingFolder" = "8:_D0F189B6F3C24DB5820D3BF77F9F917F"
-            "Icon" = "8:"
+            "Icon" = "8:_52E62FA030F644D4A423251927B3D56D"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD39F78F50D84DCAB3C71571061CF63E"
@@ -858,7 +858,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_52E62FA030F644D4A423251927B3D56D"
             {
-            "SourcePath" = "8:..\\DirStructureCopy\\obj\\x86\\Debug\\DirStructureCopy.exe"
+            "SourcePath" = "8:..\\DirStructureCopy\\obj\\x86\\Release\\DirStructureCopy.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D0F189B6F3C24DB5820D3BF77F9F917F"
