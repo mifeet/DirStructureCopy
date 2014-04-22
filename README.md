@@ -1,4 +1,4 @@
-DirStructureCopy - backup the structure of your files
+Directory Structure Copy - backup the structure of your files
 ================
 
 DirStructureCopy is a tool for efficient capturing of the complete file structure of directories to an archive, without storing actual data.
