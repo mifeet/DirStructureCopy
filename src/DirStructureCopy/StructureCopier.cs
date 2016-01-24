@@ -56,6 +56,7 @@ namespace DirStructureCopy
             {
                 throw new IOException("Source directory doesn't exist");
             }
+            log(resources.GetString("startedProcessing"), sourceDir.FullName);
             copyDirectoryStructure(sourceDir, sourceDir, stopCondition);
         }
 
@@ -263,6 +264,7 @@ namespace DirStructureCopy
             disposed = true;
             zipFile.Save(destinationPath);
             zipFile.Dispose();
+            log(resources.GetString("finishedProcessing"), destinationPath);
         }
     }
 }

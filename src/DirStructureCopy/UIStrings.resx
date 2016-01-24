@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="canceledResult" xml:space="preserve">
     <value>Operation was canceled.</value>
@@ -135,8 +135,14 @@
   <data name="fileProcessingException" xml:space="preserve">
     <value>Exception when proccessing file '{0}' in '{1}'</value>
   </data>
+  <data name="finishedProcessing" xml:space="preserve">
+    <value>Written result archive to '{0}'</value>
+  </data>
   <data name="sourceDirectoryDoesntExist" xml:space="preserve">
     <value>Source directory doesn't exist</value>
+  </data>
+  <data name="startedProcessing" xml:space="preserve">
+    <value>Started creating archive for source directory '{0}'</value>
   </data>
   <data name="successResult" xml:space="preserve">
     <value>Directory structure was successfully copied.</value>

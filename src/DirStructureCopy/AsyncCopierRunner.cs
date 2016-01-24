@@ -153,20 +153,18 @@ namespace DirStructureCopy
         private void doWork(object sender, DoWorkEventArgs e)
         {
             result = ResultType.Error;
-            StructureCopier copier = new StructureCopier(destinationPath, browseZipArchives, flattenPaths, resources);
             try
             {
-                copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(workerProgressChanged);
-                copier.CopyDirectoryStructure(sourceDir, () => backgroundWorker.CancellationPending);
-                result = backgroundWorker.CancellationPending ? ResultType.Canceled : ResultType.Success;
+                using (StructureCopier copier = new StructureCopier(destinationPath, browseZipArchives, flattenPaths, resources))
+                {
+                    copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(workerProgressChanged);
+                    copier.CopyDirectoryStructure(sourceDir, () => backgroundWorker.CancellationPending);
+                    result = backgroundWorker.CancellationPending ? ResultType.Canceled : ResultType.Success;
+                }
             }
             catch (Exception)
             {
                 result = ResultType.Error;
-            }
-            finally
-            {
-                copier.Dispose();
             }
         }
     }
