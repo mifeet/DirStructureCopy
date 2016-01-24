@@ -120,6 +120,9 @@
   <data name="canceledResult" xml:space="preserve">
     <value>Operation was canceled.</value>
   </data>
+  <data name="commandLineError" xml:space="preserve">
+    <value>An error occurred</value>
+  </data>
   <data name="dirProcessingException" xml:space="preserve">
     <value>Exception when proccessing directory '{0}' in '{1}'</value>
   </data>

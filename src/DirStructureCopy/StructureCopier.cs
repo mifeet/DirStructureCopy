@@ -12,7 +12,7 @@ namespace DirStructureCopy
     /// The actual workhorse for copying a directory structure to a zip archive.
     /// This class is not thread safe
     /// </summary>
-    class StructureCopier : IDisposable
+    sealed class StructureCopier : IDisposable
     {
         private const string logFile = "dirstructurecopy.log";
         private const string zipExtension = ".zip";

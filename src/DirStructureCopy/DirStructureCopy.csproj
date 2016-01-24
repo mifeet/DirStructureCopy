@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsoleWriter.cs" />
     <Compile Include="StructureCopier.cs" />
     <Compile Include="UIStrings.cs-CZ.Designer.cs">
       <DependentUpon>UIStrings.cs-CZ.resx</DependentUpon>

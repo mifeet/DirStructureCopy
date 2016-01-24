@@ -70,6 +70,15 @@ namespace DirStructureCopy {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An error occurred.
+        /// </summary>
+        internal static string commandLineError {
+            get {
+                return ResourceManager.GetString("commandLineError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Exception when proccessing directory &apos;{0}&apos; in &apos;{1}&apos;.
         /// </summary>
         internal static string dirProcessingException {

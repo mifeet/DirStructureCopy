@@ -120,6 +120,9 @@
   <data name="canceledResult" xml:space="preserve">
     <value>Kopírování bylo zrušeno.</value>
   </data>
+  <data name="commandLineError" xml:space="preserve">
+    <value>Nastala chyba</value>
+  </data>
   <data name="dirProcessingException" xml:space="preserve">
     <value>Chyba při zpracování adresáře '{0}' v '{1}'</value>
   </data>

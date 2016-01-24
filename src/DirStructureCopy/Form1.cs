@@ -19,12 +19,11 @@ namespace DirStructureCopy
         AsyncCopierRunner copier;
         ResourceManager resources;
 
-        public MainForm()
+        public MainForm(ResourceManager resources)
         {
             //Thread.CurrentThread.CurrentUICulture = new CultureInfo("cs-CZ");
-
             InitializeComponent();
-            resources = new ResourceManager("DirStructureCopy.UIStrings", typeof(MainForm).Assembly);
+            this.resources = resources;
             copier = new AsyncCopierRunner(resources);
             copier.Stopped += new EventHandler<CopyStoppedEventArgs>(copier_Stopped);
             copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(copier_ProgressChanged);
