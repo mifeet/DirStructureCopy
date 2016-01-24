@@ -41,6 +41,7 @@ namespace DirStructureCopy
             {
                 try
                 {
+                    consoleWriter.WriteLine();
                     consoleWriter.WriteLine(String.Format(resources.GetString("startedProcessing"), arguments.SourceDirectory));
                     copier.CopyDirectoryStructure(new DirectoryInfo(arguments.SourceDirectory), () => false);
                     consoleWriter.WriteLine(String.Format(resources.GetString("finishedProcessing"), arguments.DestinationArchive));
