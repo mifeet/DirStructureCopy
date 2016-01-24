@@ -16,7 +16,7 @@ namespace DirStructureCopy
 {
     public partial class MainForm : Form
     {
-        StructureCopier copier;
+        AsyncCopierRunner copier;
         ResourceManager resources;
 
         public MainForm()
@@ -25,7 +25,7 @@ namespace DirStructureCopy
 
             InitializeComponent();
             resources = new ResourceManager("DirStructureCopy.UIStrings", typeof(MainForm).Assembly);
-            copier = new StructureCopier(resources);
+            copier = new AsyncCopierRunner(resources);
             copier.Stopped += new EventHandler<CopyStoppedEventArgs>(copier_Stopped);
             copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(copier_ProgressChanged);
         }
@@ -77,13 +77,13 @@ namespace DirStructureCopy
             runBtn.Enabled = true;
             switch (e.Result)
             {
-                case StructureCopier.ResultType.Success:
+                case AsyncCopierRunner.ResultType.Success:
                     MessageBox.Show(resources.GetString("successResult")); 
                     break;
-                case StructureCopier.ResultType.Error:
+                case AsyncCopierRunner.ResultType.Error:
                     MessageBox.Show(resources.GetString("errorResult")); 
                     break;
-                case StructureCopier.ResultType.Canceled:
+                case AsyncCopierRunner.ResultType.Canceled:
                     MessageBox.Show(resources.GetString("canceledResult")); 
                     break;
             }

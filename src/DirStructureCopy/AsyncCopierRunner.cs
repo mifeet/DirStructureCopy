@@ -9,7 +9,7 @@ using System.Resources;
 
 namespace DirStructureCopy
 {
-    class StructureCopier
+    class AsyncCopierRunner
     {
         public enum ResultType { Success, Error, Canceled };
         private class CanceledException : Exception { }
@@ -92,7 +92,7 @@ namespace DirStructureCopy
         }
         #endregion
 
-        public StructureCopier(ResourceManager resources)
+        public AsyncCopierRunner(ResourceManager resources)
         {
             this.resources = resources;
             backgroundWorker = new BackgroundWorker();

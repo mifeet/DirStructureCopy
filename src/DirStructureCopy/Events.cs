@@ -21,13 +21,13 @@ namespace DirStructureCopy
 
     class CopyStoppedEventArgs : EventArgs
     {
-        public StructureCopier.ResultType Result
+        public AsyncCopierRunner.ResultType Result
         {
             get;
             private set;
         }
 
-        public CopyStoppedEventArgs(StructureCopier.ResultType result)
+        public CopyStoppedEventArgs(AsyncCopierRunner.ResultType result)
         {
             this.Result = result;
         }
