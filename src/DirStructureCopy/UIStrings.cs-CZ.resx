@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="canceledResult" xml:space="preserve">
     <value>Kopírování bylo zrušeno.</value>
@@ -135,8 +135,14 @@
   <data name="fileProcessingException" xml:space="preserve">
     <value>Chyba při zpracování souboru {0} v {1}</value>
   </data>
+  <data name="finishedProcessing" xml:space="preserve">
+    <value>Výsledný archiv byl zapsán do '{0}'</value>
+  </data>
   <data name="sourceDirectoryDoesntExist" xml:space="preserve">
     <value>Zdrojový adresář neexistuje.</value>
+  </data>
+  <data name="startedProcessing" xml:space="preserve">
+    <value>Vytvářím archiv pro zdrojový adresář '{0}'</value>
   </data>
   <data name="successResult" xml:space="preserve">
     <value>Adresář byl zkopírován.</value>
