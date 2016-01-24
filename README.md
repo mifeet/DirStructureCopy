@@ -12,14 +12,14 @@ Another use case for DirStructureCopy is having a directory with many files and 
 Download
 --------
 
-You can **[download the latest release](https://github.com/mifeet/DirStructureCopy/releases/latest) here on GitHub.** You can choose from portable binaries for .NET 3.5 or a Windows installer.
+You can **[download the latest release](https://github.com/mifeet/DirStructureCopy/releases/latest) here on GitHub.** You can choose between portable binaries for .NET 3.5 and a Windows installer.
 
 
 How it works
 ------------
 DirStructureCopy is very simple - choose the source directory, destination archive and click `Copy directory structure`. The created destination archive will containe zipped contents of the source directory except that all files in the archive will have zero size. Thus only the structure of files and directoreis is preserved, *not the actual data*. 
 
-Archive contents will also preserve original file size in the comment of each file and preserve original file attributes (such as modification time). In case some files cannot be accessed, it is reported in `dirstructurecopy.log` log file.
+Archive contents will also preserve original file size in the comment of each file, and preserve original file attributes (such as modification time). In case some files cannot be accessed, it is reported in `dirstructurecopy.log` log file.
 
 
 The archive can be customized with these options:
