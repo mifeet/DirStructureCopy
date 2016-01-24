@@ -15,13 +15,9 @@ namespace DirStructureCopy
         private class CanceledException : Exception { }
 
         #region Private data members
-        private const string logFile = "dirstructurecopy.log"; 
-        private const string zipExtension = ".zip";
-
-        private string sourcePath;
+        private DirectoryInfo sourceDir;
         private string destinationPath;
         private ResultType result;
-        private ZipFile zipFile;
         private BackgroundWorker backgroundWorker;
         private ResourceManager resources;
 
@@ -97,9 +93,7 @@ namespace DirStructureCopy
             this.resources = resources;
             backgroundWorker = new BackgroundWorker();
             backgroundWorker.WorkerSupportsCancellation = true;
-            backgroundWorker.WorkerReportsProgress = true;
             backgroundWorker.DoWork += new DoWorkEventHandler(this.doWork);
-            backgroundWorker.ProgressChanged += new ProgressChangedEventHandler(this.backgroundWorkerProgressChanged);
             backgroundWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(this.backgroundWorkerCompleted);
         }
 
@@ -115,19 +109,12 @@ namespace DirStructureCopy
                 throw new InvalidOperationException("RunAsync() cannot be called while copy is in progress.");
             }
 
-            DirectoryInfo sourceDir = new DirectoryInfo(source);
+            sourceDir = new DirectoryInfo(source);
             if (!sourceDir.Exists)
             {
                 throw new IOException("Source directory doesn't exist");
             }
-
-
-            sourcePath = sourceDir.FullName;
             destinationPath = destination;
-
-            //zipFile = openZipFile();
-            zipFile = new ZipFile();
-            zipFile.UseZip64WhenSaving = Zip64Option.Always;
 
             isStarted = true;
             backgroundWorker.RunWorkerAsync();
@@ -145,10 +132,6 @@ namespace DirStructureCopy
 
         private void backgroundWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            zipFile.Save(destinationPath);
-            zipFile.Dispose();
-            zipFile = null;
-
             isStarted = false;
             if (Stopped != null)
             {
@@ -156,11 +139,11 @@ namespace DirStructureCopy
             }
         }
 
-        private void backgroundWorkerProgressChanged(object sender, ProgressChangedEventArgs e)
+        private void workerProgressChanged(object sender, CopyProgressChangedEventArgs e)
         {
             if (ProgressChanged != null)
             {
-                ProgressChanged(this, new CopyProgressChangedEventArgs((string)e.UserState));
+                ProgressChanged(this, e);
             }
         }
 
@@ -170,207 +153,20 @@ namespace DirStructureCopy
         private void doWork(object sender, DoWorkEventArgs e)
         {
             result = ResultType.Error;
+            StructureCopier copier = new StructureCopier(destinationPath, browseZipArchives, flattenPaths, resources);
             try
             {
-                DirectoryInfo sourceDir = new DirectoryInfo(sourcePath);
-                copyDirectoryStructure(sourceDir);
+                copier.ProgressChanged += new EventHandler<CopyProgressChangedEventArgs>(workerProgressChanged);
+                copier.CopyDirectoryStructure(sourceDir, () => backgroundWorker.CancellationPending);
                 result = backgroundWorker.CancellationPending ? ResultType.Canceled : ResultType.Success;
             }
             catch (Exception)
             {
                 result = ResultType.Error;
             }
-        }
-
-        /// <summary>
-        /// The actual implementation of the directory structure copy.
-        /// Implemented using recursion.
-        /// </summary>
-        /// <param name="sourceDir">Directory to be copied</param>
-        private void copyDirectoryStructure(DirectoryInfo sourceDir)
-        {
-            if (backgroundWorker.CancellationPending)
+            finally
             {
-                return; // BackgroundWorker.CancelAsync() has been called
-            }
-
-            backgroundWorker.ReportProgress(0, stripSourcePath(sourceDir.FullName));
-
-            foreach (FileInfo sourceFile in sourceDir.GetFiles())
-            {
-                try
-                {
-                    addFile(sourceFile);
-                    if (browseZipArchives && Path.GetExtension(sourceFile.Name) == zipExtension)
-                    {
-                        FileStream sourceFileStream = sourceFile.OpenRead();
-                        if (ZipFile.IsZipFile(sourceFileStream, true))
-                        {
-                            sourceFileStream.Position = 0;
-                            using (ZipFile sourceZipFile = ZipFile.Read(sourceFileStream))
-                            {
-                                copyZipArchiveStructure(sourceZipFile, sourceFile);
-                            }
-                        }
-
-                        sourceFileStream.Close();
-                    }
-                }
-                catch (UnauthorizedAccessException) { }
-                catch (Exception e)
-                {
-                    log(resources.GetString("fileProcessingException") + ":\n{2}\n", sourceFile.Name, sourceDir.FullName, e.Message);
-                }
-            }
-
-            foreach (DirectoryInfo sourceSubdir in sourceDir.GetDirectories())
-            {
-                if (backgroundWorker.CancellationPending)
-                {
-                    return; // BackgroundWorker.CancelAsync() has been called
-                }
-
-                try
-                {
-                    addDirectory(sourceSubdir);
-                    copyDirectoryStructure(sourceSubdir); // recursion
-                }
-                catch (UnauthorizedAccessException) { }
-                catch (Exception e)
-                {
-                    log(resources.GetString("dirProcessingException") + ":\n{2}\n", sourceDir.Name, sourceDir.FullName, e.Message);
-                }
-            }
-        }
-
-        private void copyZipArchiveStructure(ZipFile sourceZipFile, FileInfo sourceFile)
-        {
-            if (backgroundWorker.CancellationPending)
-            {
-                return; // BackgroundWorker.CancelAsync() has been called
-            }
-
-            string archivePath = stripSourcePath(sourceFile.FullName);
-            backgroundWorker.ReportProgress(0, archivePath);
-
-            try
-            {
-                foreach (ZipEntry sourceEntry in sourceZipFile)
-                {
-                    addZipEntry(sourceEntry, archivePath);
-                }
-            }
-            catch (Exception e)
-            {
-                log(resources.GetString("zipProcessingException") + ":\n{2}\n", sourceFile.Name, sourceFile.Directory.FullName, e.Message); 
-            }
-        }
-
-        private void addFile(FileInfo sourceFile)
-        {
-            string path = flattenPaths ? sourceFile.Name : stripSourcePath(sourceFile.FullName);
-            if (flattenPaths && zipFile.ContainsEntry(path))
-            {
-                return;
-            }
-
-            ZipEntry entry = zipFile.AddEntry(path, String.Empty);
-            entry.AccessedTime = sourceFile.LastAccessTime;
-            entry.Attributes = sourceFile.Attributes;
-            entry.CreationTime = sourceFile.CreationTime;
-            entry.LastModified = sourceFile.LastWriteTime;
-            entry.ModifiedTime = sourceFile.LastWriteTime;
-
-            entry.Comment = String.Format(resources.GetString("fileComment"), sourceFile.Length);
-            entry.IsText = true;
-        }
-
-        private void addDirectory(DirectoryInfo sourceDir)
-        {
-            if (!flattenPaths)
-            {
-                string path = stripSourcePath(sourceDir.FullName);
-
-                ZipEntry entry = zipFile.AddDirectoryByName(path);
-                entry.AccessedTime = sourceDir.LastAccessTime;
-                entry.Attributes = sourceDir.Attributes;
-                entry.CreationTime = sourceDir.CreationTime;
-                entry.LastModified = sourceDir.LastWriteTime;
-                entry.ModifiedTime = sourceDir.LastWriteTime;
-            }
-        }
-
-        private void addZipEntry(ZipEntry sourceEntry, string archivePath)
-        {
-            if (sourceEntry.IsDirectory)
-            {
-                if (flattenPaths)
-                {
-                    return;
-                }
-                // TODO: treat duplicities?
-                string path = archivePath + "$" + Path.DirectorySeparatorChar + sourceEntry.FileName;
-                ZipEntry newEntry = zipFile.AddDirectoryByName(path);
-                newEntry.Attributes = sourceEntry.Attributes;
-                newEntry.AccessedTime = safeUtcTime(sourceEntry.AccessedTime);
-                newEntry.CreationTime = safeUtcTime(sourceEntry.CreationTime);
-                newEntry.LastModified = safeUtcTime(sourceEntry.LastModified);
-                newEntry.ModifiedTime = safeUtcTime(sourceEntry.ModifiedTime);
-            }
-            else
-            {
-                string path = flattenPaths
-                    ? Path.GetFileName(sourceEntry.FileName)
-                    : archivePath + "$" + Path.DirectorySeparatorChar + sourceEntry.FileName;
-                if (flattenPaths && zipFile.ContainsEntry(path))
-                {
-                    return;
-                }
-
-                ZipEntry newEntry = zipFile.AddEntry(path, String.Empty);
-                newEntry.Attributes = sourceEntry.Attributes;
-                newEntry.AccessedTime = safeUtcTime(sourceEntry.AccessedTime);
-                newEntry.CreationTime = safeUtcTime(sourceEntry.CreationTime);
-                newEntry.LastModified = safeUtcTime(sourceEntry.LastModified);
-                newEntry.ModifiedTime = safeUtcTime(sourceEntry.ModifiedTime);
-                newEntry.Comment = String.Format(resources.GetString("fileComment"), sourceEntry.UncompressedSize);
-                newEntry.IsText = true;
-            }
-        }
-
-        private string stripSourcePath(string path)
-        {
-
-            if (path.StartsWith(sourcePath))
-            {
-                return path.Substring(sourcePath.Length);
-            }
-            else
-            {
-                return path;
-            }
-        }
-
-        private void log(string format, params object[] args)
-        {
-            string logMessage = String.Format(format, args);
-            using (StreamWriter writer = new StreamWriter(logFile, true))
-            {
-                writer.Write(DateTime.Now);
-                writer.WriteLine(": " + logMessage);
-            }
-        }
-
-        private DateTime safeUtcTime(DateTime time)
-        {
-            try
-            {
-                long utcTime = time.ToFileTimeUtc();
-                return DateTime.FromFileTimeUtc(utcTime);
-            }
-            catch (ArgumentOutOfRangeException)
-            {
-                return DateTime.FromFileTimeUtc(0);
+                copier.Dispose();
             }
         }
     }
