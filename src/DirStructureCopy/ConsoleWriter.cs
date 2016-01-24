@@ -22,6 +22,13 @@ namespace DirStructureCopy
             AttachConsole(ATTACH_PARENT_PROCESS);
         }
 
+        public void WriteLine()
+        {
+            Console.WriteLine();
+            stdOutWriter.WriteLine();
+        }
+
+
         public void WriteLine(string message)
         {
             Console.WriteLine(message);
