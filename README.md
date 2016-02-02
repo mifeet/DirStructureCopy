@@ -9,6 +9,8 @@ Another use case for DirStructureCopy is having a directory with many files and 
 
 *Tip: If you backup a large directory or the entire filesystem, compress the destination archive to get a very space-efficient representation.*
 
+![Screenshot](https://sourceforge.net/p/dirstructurecpy/screenshot/screenshot.png)
+
 Download
 --------
 
