@@ -1,7 +1,7 @@
 Directory Structure Copy - backup the structure of your files
 ================
 
-DirStructureCopy is a tool for efficient capturing of the complete file structure of directories to an archive, without storing actual data.
+**DirStructureCopy is a tool for efficient capturing of the complete file structure of directories to an archive, without storing actual data.**
 
 Do you have a large film/music/whatever collection which is too large for a full backup, yet you want a way how to restore it in case of data loss? You can use DirStructureCopy to backup the complete file structure of your collection without storing the actual data. In case of data loss, you cannot restore data from DirStructureCopy backup but you will know exactly what you lost and need to re-download/restore.
 
